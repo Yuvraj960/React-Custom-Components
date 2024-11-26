@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.topContainer {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.topContainer h1 {
+    padding: 30px;
+}
+
+.scrollProgress {
+    width: 100%;
+    height: 10px;
+    background: #aaf900;
+}
+
+.currentProgress {
+    height: 10px;
+    background: #8b02b5;
+    width: 0%;
+}
+
+.data-container {
+    margin-top: 100px;
+}
