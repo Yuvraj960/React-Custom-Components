@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+}
+
+.display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 60px;
+    flex-direction: column;
+    gap: 30px;
+}
+
+h1 {
+    font-size: 10rem;
+}
+
+h3 {
+    font-size: 5rem;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-right: 20px;
+}
