@@ -1,0 +1,18 @@
+input {
+    width: 70%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+ul {
+    font-size: 2rem;
+}
+
+li {
+    margin-bottom: 1rem;
+}
